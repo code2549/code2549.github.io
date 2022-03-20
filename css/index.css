@@ -1,0 +1,197 @@
+/* index页面样式表 */
+/* banner */
+.banner {
+    height:600px;
+    background-color: #cccccc;
+}
+
+
+.banner .wrapper {
+    position:relative;
+    height: 600px;
+}
+
+
+.prev,
+.next {
+    position: absolute;
+    top: 272px;
+    background-image: url(../images/sprites.png);
+    width: 55px;
+    height: 55px;
+}
+
+
+.prev {
+    left:50px;
+}
+
+
+.next {
+    right: 50px;
+    background-position: -75px 0;
+}
+
+
+.banner ol {
+    position: absolute;
+    left: 556px;
+    bottom: 40px;
+
+    height: 20px;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    padding-top: 3px;
+    
+}
+
+
+.banner ol li {
+    float: left;
+    width: 14px;
+    height: 14px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+.banner ol li:first-child {
+    margin-left: 8px;
+}
+
+
+.banner ol li:last-child {
+    margin-right: 8px;
+}
+
+
+.banner ol .current {
+    background-color: #eb7faf;
+}
+
+
+/* 活动照片 */
+.photo .hd {
+    height: 95px;
+    line-height: 95px;
+}
+
+
+.photo .hd h2 {
+    float: left;
+    font-size: 36px;
+    font-weight: normal;
+    padding-left: 30px;
+}
+
+
+.photo .hd a {
+    float: right;
+    color: #999999;
+    font-size: 18px;
+    font-weight: normal;
+    padding-right: 30px;
+}
+
+
+.photo .bd ul {
+    margin-left: 30px;
+}
+
+
+.photo .bd li {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 272px;
+	height: 292px;
+    background-color: rgb(176, 224, 230);    
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+} 
+
+
+.photo .bd li img {
+    width: 272px;
+    height: 190px;
+}
+
+
+.photo .bd li h3 {
+    font-size: 18px;
+    color: #fff;
+    text-indent: 12px;
+    padding-top: 6px;
+}
+
+
+/* 加入我们 */
+.join .hd {
+	height: 85px;
+    line-height: 85px;
+    margin-bottom: 10px;
+}
+
+
+.join .hd h2 {
+    float: left;
+    font-size: 36px;
+    font-weight: normal;
+    padding-left: 30px;
+}
+
+
+.join .bd ul {
+    margin-left: 30px;
+}
+
+
+.join .bd li {
+    float: left;
+    width: 366px;
+	height: 295px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+
+.join .bd li img {
+    width: 366px;
+	height: 295px;
+}
+
+
+.join .bd li p {
+    position:absolute;
+    font-size: 48px;
+    top: 125px;
+    left: 110px;
+}
+
+
+.join .bd li span {
+    display: none;
+}
+
+
+.join .bd li:hover span {
+    display: block;
+    position:absolute;
+    font-size: 18px;
+    top: 247px;
+    left: 110px;
+}
+
+
+.join .bd li:hover {
+    opacity: 0.5;
+    transition: all 1s;
+}
+
+
+span,p {
+    color: #fff;
+}
