@@ -1,0 +1,48 @@
+.log {
+    height: 620px;
+}
+
+
+.log .hd {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+
+.log .hd h2 {
+    font-weight: normal;
+    color: pink;
+    padding-bottom: 30px;
+}
+
+
+.log .hd span {
+    display:inline-block;
+    height: 24px;
+    width: 50px;
+    color: #929292;
+    background-color: #f2f2f2;
+    border-radius:3px;
+}
+
+
+.log .hd p {
+    padding-top: 30px;
+}
+.log .bd {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+
+.log .bd .new {
+    display: inline-block;
+    height: 24px;
+    width: 40px;
+    color: #f2f2f2;
+    border-radius:3px;
+    text-align: center;
+    background-color: rgb(164, 186, 128);
+}
